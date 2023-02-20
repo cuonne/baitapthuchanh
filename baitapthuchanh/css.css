@@ -1,0 +1,28 @@
+* {
+  
+     margin: 0;
+      padding: 0;
+    }
+.border-Stu{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px 
+}
+input{
+    padding: 5px; 
+}
+label{
+    margin-right: 10px; 
+   
+}
+
+.table-stu, th,td{
+    border:1px solid black;
+    margin: 10px; 
+    padding: 10px;
+}
+.table-stu{ 
+    margin-left: 100px;
+    
+    border-collapse:collapse;
+}

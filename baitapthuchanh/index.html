@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đăng kí </title>
+   <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+
+      </div>
+       <h3 > Form nhập thông tin</h3>
+
+      <div class="border-Stu">
+       
+        <form>
+            <label for="stuName">Name</label> 
+            <br>
+          <input
+            type="text"
+            name="stuName"
+            id="stuName"
+            placeholder="Vui lòng nhập Tên"
+          /><br />
+         <label for="stuEmail">Email</label>
+         <br>
+          <input
+            type="text"
+            name="stuEmail"
+            id="stuEmail"
+            placeholder="Vui lòng nhập Email"
+          /><br />
+          <label for="stuPhone">Số Điện thoại</label>
+          <br>
+          <input
+            type="number"
+            name="stuPhone"
+            id="stuPhone"
+            placeholder="Vui lòng nhập số điện thoại"
+          />
+          <br />
+          <label for="homeLand">Quê Quán</label>
+          <br>
+          <input
+            type="text"
+            name="homeLand"
+            id="homeLand"
+            placeholder="Vui lòng nhập địa chỉ quê quán"
+          /><br />
+
+        <label > Giới tính :</label>
+            
+          <input type="radio" >
+          <label id="sex" > Nam</label> 
+          <input type="radio" >
+          <label id="sex"> Nữ</label>
+          <br>
+          <button id="btnCreate">Lưu Lại</button>
+        </form>
+        <table class="table-stu"> 
+<caption style="font-size: 35px;"> Danh sách sinh viên</caption>
+          <thead>  
+            <tr>
+            
+              <th>#</th>
+              <th>Họ Tên</th>
+              <th>Email</th>
+              <th>Điện thoại </th>
+              <th>Địa chỉ</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+    <script src="jss.js"></script>
+  </body>
+</html>
